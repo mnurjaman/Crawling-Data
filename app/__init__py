@@ -1,0 +1,16 @@
+# app/__init__.py
+from flask import Flask
+
+
+def create_app():
+    app = Flask(__name__)
+
+    # Konfigurasi aplikasi bisa ditambahkan di sini
+    app.config.from_object("app.config")
+
+    # Daftarkan blueprint atau route di sini jika perlu
+    from app.routes import main as main_blueprint
+
+    app.register_blueprint(main_blueprint)
+
+    return app
