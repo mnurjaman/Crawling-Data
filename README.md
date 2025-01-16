@@ -1,6 +1,6 @@
 # Crawling Data
 1. Clone this repository.
-   ''bash
+   ```bash
    git clone https://github.com/mnurjaman/Crawling-Data.git
 3. Open it in Visual Studio Code (VS Code)
 4. Run the project.
