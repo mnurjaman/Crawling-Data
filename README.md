@@ -1,2 +1,2 @@
-# data_analisys
+# data_analyst
 introduction to data analyst
